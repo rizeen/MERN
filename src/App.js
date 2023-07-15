@@ -164,7 +164,7 @@ class CreditCardForm extends React.Component {
     return (
       <>
         <div className="input-addon">
-          <input type="number"
+          <input type="text"
             value={this.state.cardNumber}
             placeholder={this.state.placeholder}
             maxLength={this.state.maxLength}
