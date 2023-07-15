@@ -36,4 +36,4 @@ View the app at `http://localhost:3000`.
 Credit card numbers should follow their respective spacing as seen on their actual cards.
 
 #### Form validation
-Currently, `<input type="text">` and so allows non-integer input. Additionally, there should be visual indication that the user has not entered a complete credit card number (only after first `focus` event) and if the user attempts to exceed `maxLength`.
+There should be visual indication that the user has not entered a complete credit card number (only after first `focus` event) and if the user attempts to exceed `maxLength`.
